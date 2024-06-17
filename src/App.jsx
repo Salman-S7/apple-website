@@ -5,6 +5,7 @@ import Model from './components/Model'
 import Navbar from './components/Navbar'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -15,7 +16,8 @@ function App() {
       <Highlights />
       <Model />
       <Features />
-      <HowItWorks/>
+      <HowItWorks />
+      <Footer/>
     </main>
   )
 }
